@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Z-index</title>
+        <style>
+            .container{
+                position: relative;
+                border: 1px solid black;
+                background-color: lightgray;
+                height: 500;
+                width: 50%;
+            }
+            .blue-box{
+                position: relative;
+                border: 2px solid black;
+                background-color:blue;
+                height: 300px;
+                width: 300px;
+                top: 40px;
+                margin: 20px;
+            }
+            .red-box{
+                position: absolute;
+                border: 2px solid black;
+                background-color: red;
+                height: 300px;
+                width: 300px;
+                left: 80px;
+                top: 130px;
+            }
+            .green-box{
+                position: absolute;
+                border: 2px solid  black;
+                background-color: green;
+                height: 300px;
+                width: 300px;
+                left: 148px;
+                top: 188px; 
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="blue-box"></div>
+            <div class="red-box"></div>
+            <div class="green-box"></div>
+        </div>
+    </body>
+</html>

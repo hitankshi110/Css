@@ -1,0 +1,61 @@
+.container{
+    position: relative;
+    height: 500px;
+    width: 500px;
+    background-color: white;
+}
+.deepskyblue-box{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-color: deepskyblue;
+    border: 2ps solid deepskyblue;
+    top: 10px;
+    left: 200px;
+}
+.blue-box{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border: 2pc soid blue;
+    top: 77px;
+    left: 300px;
+}
+.darkblue-box{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: darkblue;
+    border: 2px solid darkblue;
+    top: 140px;
+    left: 250px;
+}
+.orange-box{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color:orangered;
+    border: 2px solid orangered;
+    top: 195px;
+    left: 350px;
+
+}
+.red-box{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: 2px solid red;
+    top: 250px;
+    left: 450px;
+}
+.darkred-box{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: darkred;
+    border: 2px solid  darkred;
+    top: 300px;
+    left: 390px;
+}
